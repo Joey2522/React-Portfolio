@@ -1,0 +1,15 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    width: 100%;
+    height: 100vh;
+    background-image: url("/src/images/SL-121222-54480-67.jpg");
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: scroll;
+}
