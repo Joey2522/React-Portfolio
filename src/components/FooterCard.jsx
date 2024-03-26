@@ -3,14 +3,13 @@ import style from '../styles/FooterCard.css';
 function Footer () {
  return (
  <>
-    <footer className="">
-      <ul>
-        <li><a href="aboutMe"></a></li>
-        <li><a href="portfolio"></a></li>
-        <li><a href="contact">Contact</a></li>
-        <li><a href="resume">Resume</a></li>
-      </ul>
-    </footer>
+    <div className='footer'>
+        <ul className="ul">
+            <li><img src="/src/images/icons/github.svg" alt="github" className="icon1"/></li>
+            <li><img src="/src/images/icons/linkedin.svg" alt="linkedin" className="icon3"/></li>
+            <li><img src="/src/images/icons/dumpster-fire-solid.svg" alt="dumpster-fire" className="icon2"/></li>
+        </ul>
+    </div>
   </>
  );
 }
