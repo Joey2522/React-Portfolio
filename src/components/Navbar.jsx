@@ -1,16 +1,20 @@
-import Navbar from '/src/style/NavBar.css';
+import style from '../styles/Navbar.css';
 
-function BasicNav() {
-  return (
-    <navbar className="navbar">
-      <h1 className="name">Joey Porter's Portfolio</h1>
+function Navbar () {
+ return (
+ <>
+    <nav className="navbar">
       <ul>
-        <li><a href="#about">About Me</a></li>
-        <li><a href="#mywork">My Work</a></li>
-        <li><a href="#contact">Contact Me</a></li>
+        <li><a href="aboutMe">About Me</a></li>
+        <li><a href="portfolio">Portfolio</a></li>
+        <li><a href="contact">Contact</a></li>
+        <li><a href="resume">Resume</a></li>
       </ul>
-    </navbar>
-  );
+    </nav>
+    <img src="/src/images/profilePic.png" alt="Handsom Man" class="picture"/>
+    <header className="name">Joey Porter</header>
+  </>
+ );
 }
 
-export default BasicNav;
+export default Navbar;

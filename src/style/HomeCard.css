@@ -1,7 +1,0 @@
-.homeCard {
-    display: flex;
-    width: 600px;
-    height: 800px;
-    background-image: linear-gradient(to right, #6AD5CB , #7FBEAB);
-    justify-content: center;
-}

@@ -1,12 +1,14 @@
-import BasicNav from './components/Navbar';
-import HomeCard from './components/HomeCard';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Outlet } from 'react-router-dom';
+import style from './App.css';
+import Nav from './components/Navbar';
+import AboutMe from './components/AboutCard';
+
 
 function App() {
   return (
-    <div>
-        <BasicNav />
-        <HomeCard />
+    <div className="background">
+      <Nav/>
+      <AboutMe />
     </div>
   );
 }
