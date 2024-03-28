@@ -1,18 +1,21 @@
-import { Outlet } from 'react-router-dom';
-import style from './App.css';
-import Nav from './components/Navbar';
-import AboutMe from './components/AboutCard';
-import Footer from './components/FooterCard';
+import Navbar from "./components/Navbar";
+import Footer from "./components/FooterCard";
+import { Outlet } from "react-router-dom";
 
+import './styles/App.css';
 
 function App() {
-  return (
-    <div className="background">
-      <Nav/>
-      <AboutMe />
-      <Footer />
-    </div>
-  );
+    return (
+        <>
+        <div className="background">
+            <Navbar/>
+                <main>
+                    <Outlet/>
+                </main>
+            <Footer/>
+        </div>
+        </>
+    )
 }
 
 export default App;

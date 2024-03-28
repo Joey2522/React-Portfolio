@@ -1,4 +1,5 @@
-import style from '../styles/AboutCard.css';
+import React from 'react';
+import '../styles/AboutCard.css';
 
 function AboutMe () {
     return (

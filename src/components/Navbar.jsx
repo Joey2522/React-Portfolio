@@ -1,14 +1,16 @@
-import style from '../styles/Navbar.css';
+import React from 'react';
+import { NavLink } from 'react-router-dom';
+import '../styles/Navbar.css';
 
 function Navbar () {
  return (
  <>
     <nav className="navbar">
       <ul>
-        <li><a href="aboutMe">About Me</a></li>
-        <li><a href="portfolio">Portfolio</a></li>
-        <li><a href="contact">Contact</a></li>
-        <li><a href="resume">Resume</a></li>
+        <li><NavLink to="/aboutMe">About Me</NavLink></li>
+        <li><NavLink to="/portfolio">Portfolio</NavLink></li>
+        <li><NavLink to="/contact">Contact</NavLink></li>
+        <li><NavLink to="/resume">Resume</NavLink></li>
       </ul>
     </nav>
     <img src="/src/images/profilePic.png" alt="Handsom Man" class="picture"/>

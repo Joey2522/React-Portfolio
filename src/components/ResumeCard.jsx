@@ -1,10 +1,10 @@
 import React from 'react';
 
-function ContactInfo () {
+function Resume () {
     return (
         <>
         </>
     );
 }
 
-export default ContactInfo;
+export default Resume;
