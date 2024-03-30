@@ -9,7 +9,7 @@ function App() {
         <>
         <div className="background">
             <Navbar/>
-                <main>
+                <main className="homeCard">
                     <Outlet/>
                 </main>
             <Footer/>

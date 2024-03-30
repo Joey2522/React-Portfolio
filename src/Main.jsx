@@ -6,7 +6,7 @@ import ResumeCard from './components/ResumeCard';
 import ErrorPage from './components/pages/ErrorPage';
 import App from './App';
 
-import { RouterProvider, createBrowserRouter, createRoutesFromElements } from 'react-router-dom';
+import { RouterProvider, createBrowserRouter } from 'react-router-dom';
 
 
 const router = createBrowserRouter([

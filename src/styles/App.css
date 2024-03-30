@@ -13,3 +13,27 @@
     position: relative;
     overflow: scroll;
 }
+
+/* .homeCard {
+    display: flex-column;
+    justify-content: wrap;
+    align-items: center;
+    width: 50%;
+    margin: 15px auto;
+    width: 410px;
+    height: 320px;
+    background-image: radial-gradient(#002057, #424A57);
+    border-radius: 4px;
+    content: "Welcome To My Portfolio";
+}
+
+.homeCard:before {
+    content: "Welcome To My Portfolio";
+    font-size: 50px;
+    display: flex;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 3px 3px 5px rgba(0, 128, 0, 1);
+  } */
