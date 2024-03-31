@@ -4,8 +4,8 @@ import '../styles/AboutCard.css';
 function AboutMe () {
     return (
     <>
+    <header>About Me</header>
         <div className='aboutCard'>
-            <h1>About Me</h1>
             <p>
                 Hello, my name is Joseph Porter but everyone calls me Joey. I currenlty live in 
                 the greater Austin metro area with my wife and 3 children. I began my coding journey 

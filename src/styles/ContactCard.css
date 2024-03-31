@@ -1,0 +1,67 @@
+header {
+    display: flex;
+    justify-content: center;
+    background-image: radial-gradient(#002057, #424A57);
+    Padding: 15px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    color: whitesmoke;
+    text-shadow: 3px 3px 5px rgba(0, 128, 0, 1);
+    border-radius: 4px;
+}
+
+.contactCard {
+    align-items: center;
+    width: 50%;
+    margin: 15px auto;
+    width: 410px;
+    height: 625px;
+    background-image: radial-gradient(#002057, #424A57);
+    border-radius: 4px;
+}
+
+i {
+    padding: 0 10px;
+}
+
+h3 {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 15px;
+}
+
+h4 {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 10px;  
+}
+
+form {
+    overflow: hidden;
+    color: whitesmoke;
+}
+
+.formContent {
+    text-align: center;
+    font-size: 28px;
+    padding: 15px;
+}
+
+.content {
+    height: 220px;
+    width: 390px;
+    align-items: center;
+    overflow: scroll;
+}
+
+.emailBtn {
+    text-align: center;
+}
+
+.emailBtn input {
+    color: #002057;
+    font-size: 30px;
+    background-color: aqua;
+    border-radius: 4px;
+}
