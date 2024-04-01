@@ -1,0 +1,19 @@
+.landingCard {
+    display: flex-column;
+    justify-content: wrap;
+    align-items: center;
+    width: 50%;
+    margin: 15px auto;
+    width: 410px;
+    height: 320px;
+    background-image: radial-gradient(#002057, #424A57);
+    border-radius: 4px;
+}
+
+.welcome {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    text-shadow: 3px 3px 5px rgba(0, 128, 0, 1);
+    padding-top: 40px;
+}

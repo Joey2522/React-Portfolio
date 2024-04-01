@@ -1,0 +1,46 @@
+.resumeCard {
+    display: flex-column;
+    justify-content: wrap;
+    align-items: center;
+    width: 50%;
+    margin: 15px auto;
+    width: 410px;
+    height: 320px;
+    background-image: radial-gradient(#002057, #424A57);
+    border-radius: 4px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-image: radial-gradient(#002057, #424A57);
+    Padding: 15px;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    color: whitesmoke;
+    text-shadow: 3px 3px 5px rgba(0, 128, 0, 1);
+    border-radius: 4px;
+}
+
+h3 {
+    color: whitesmoke;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#i {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    color: whitesmoke;
+    font-size: 100px;
+    margin-top: 50px;
+}
+
+.dlBtn {
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 120px;
+    font-size: 40px;
+}

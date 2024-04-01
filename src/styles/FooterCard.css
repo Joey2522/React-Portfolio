@@ -3,6 +3,7 @@
 .footer {
     display: flex;
     justify-content: center;
+    max-height: 100px;
 }
 
 .ul {
@@ -25,6 +26,7 @@ ul li {
     margin-right: auto;
     width: 60px;
     padding: 5px;
+    margin-top: -70px;
 }
 
 .icon2 {
@@ -34,6 +36,7 @@ ul li {
     margin-right: auto;
     width: 60px;
     padding: 5px;
+    margin-top: -70px;
 }
 
 .icon3 {
@@ -43,4 +46,5 @@ ul li {
     margin-right: auto;
     width: 60px;
     padding: 5px;
+    margin-top: -70px;
 }

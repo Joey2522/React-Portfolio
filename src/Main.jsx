@@ -3,6 +3,7 @@ import AboutMe from './components/AboutCard';
 import PortfolioCard from './components/PortfolioCard';
 import ContactCard from './components/ContactCard';
 import ResumeCard from './components/ResumeCard';
+import Landing from './components/LandingCard';
 import ErrorPage from './components/pages/ErrorPage';
 import App from './App';
 
@@ -15,6 +16,10 @@ const router = createBrowserRouter([
     element: <App />,
     errorElement: <ErrorPage />,
     children: [
+      {
+        path: '/',
+        element: <Landing />,
+      },
       {
         path: 'aboutMe',
         element: <AboutMe />,

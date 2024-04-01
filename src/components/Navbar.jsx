@@ -1,5 +1,5 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
 import '../styles/Navbar.css';
 
 function Navbar () {
@@ -13,7 +13,7 @@ function Navbar () {
         <li><NavLink to="/resume">Resume</NavLink></li>
       </ul>
     </nav>
-    <img src="/src/images/profilePic.png" alt="Handsom Man" class="picture"/>
+    <Link to={''}><img src="/src/images/profilePic.png" alt="Handsom Man" class="picture"/></Link>
     <header className="name">Joey Porter</header>
   </>
  );
