@@ -24,8 +24,9 @@ function Footer () {
         <Modal.Header closeButton>
           <Modal.Title>Dumpster Fire<i class="fa-solid fa-fire"></i></Modal.Title>
         </Modal.Header>
-        <Modal.Body>Social Media tends to be more of a dumpster fire than anything else these days. 
-            I try to avoid it if I can. I am not currenlty on any social media other than LinkedIn.</Modal.Body>
+        <Modal.Body>Social media tends to be more of a dumpster fire 
+            than anything else these days. So, I try to avoid it if I can. 
+            I am not currently on any social media platform other than LinkedIn.</Modal.Body>
         <Modal.Footer>
           <Button variant="secondary" onClick={handleClose}>
             Close
