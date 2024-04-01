@@ -7,12 +7,14 @@ function AboutMe () {
     <header>About Me</header>
         <div className='aboutCard'>
             <p>
-                Hello, my name is Joseph Porter but everyone calls me Joey. I currenlty live in 
-                the greater Austin metro area with my wife and 3 children. I began my coding journey 
-                almost 6 months ago. I joined an online coding bootcamp hosted by the University of Texas. Having
-                no previous coding experience made my bootcamp one of the most challenging endeavers I have ever
-                walked through. Although its to early to say for sure but I do hope that it is also the most rewarding
-                challenge as well. I hope you enjoy looking through my body of work and I look forward to hearing from you.
+            Hello, my name is Joseph Porter but everyone calls me Joey. 
+            I currently live in the greater Austin metro area with my wife and 3 kids. 
+            I began my coding journey almost 6 months ago. I
+             enrolled in an online coding boot camp hosted by the University of Texas. 
+             Having no previous coding experience made the boot camp on of the most challenging 
+             experiences I have ever gone through. Despite the difficulty I know that completing 
+             this boot camp will also be one of the most rewarding experiences as well. 
+             I hope you enjoy walking through my portfolio and I look forward to hearing from you soon!
             </p>
 
         </div>
