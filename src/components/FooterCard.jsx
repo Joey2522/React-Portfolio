@@ -1,5 +1,5 @@
 import React from 'react';
-import style from '../styles/FooterCard.css';
+import style from '../styles/footercard.css';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';

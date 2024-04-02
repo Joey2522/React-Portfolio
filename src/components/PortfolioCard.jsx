@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/PortfolioCard.css';
+import '../styles/portfoliocard.css';
 import { Link } from 'react-router-dom';
 import trackerImage from '../images/runTracker.png';
 import jsQuiz from '../images/jsQuiz.png';
