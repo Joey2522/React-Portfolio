@@ -1,12 +1,12 @@
 import React from 'react';
 import '../styles/PortfolioCard.css';
 import { Link } from 'react-router-dom';
-import trackerImage from '../images/runTracker.png';
-import jsQuiz from '../images/jsQuiz.png';
-import passGen from '../images/passGen.png';
-import planner from '../images/planner.png';
-import dateNight from '../images/dateNight.png';
-import more from '../images/moretocome.png';
+import trackerImage from '/src/images/runTracker.png';
+import jsQuiz from '/src/images/jsQuiz.png';
+import passGen from '/src/images/passGen.png';
+import planner from '/src/images/planner.png';
+import dateNight from '/src/images/dateNight.png';
+import more from '/src/images/moretocome.png';
 import "bootstrap/dist/css/bootstrap.min.css";
 import Accordion from 'react-bootstrap/Accordion';
 import Button from 'react-bootstrap/Button';
