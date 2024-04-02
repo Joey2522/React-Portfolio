@@ -4,6 +4,9 @@ import { Link } from 'react-router-dom';
 import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
+import gitHub from '/src/images/icons/github.svg';
+import linkedIn from '/src/images/icons/linkedin.svg.svg';
+import dumpFire from '/src/images/icons/dumpster-fire-solid.svg';
 
 
 function Footer () {
@@ -16,9 +19,9 @@ function Footer () {
  <>
     <section className='footer'>
         <div className="ul">
-            <Link to="https://github.com/Joey2522" target="_blank"><img src="/src/images/icons/github.svg" alt="github" className="icon1"/></Link>
-            <Link to="https://www.linkedin.com/in/joey-porter-tx/" target="_blank"><img src="/src/images/icons/linkedin.svg" alt="linkedin" className="icon3"/></Link>
-            <Link onClick={ handleShow }><img src="/src/images/icons/dumpster-fire-solid.svg" alt="dumpster-fire" className="icon2"/></Link>
+            <Link to="https://github.com/Joey2522" target="_blank"><img src={ gitHub } alt="github" className="icon1"/></Link>
+            <Link to="https://www.linkedin.com/in/joey-porter-tx/" target="_blank"><img src={ linkedIn } alt="linkedin" className="icon3"/></Link>
+            <Link onClick={ handleShow }><img src={ dumpFire } alt="dumpster-fire" className="icon2"/></Link>
 
             <Modal show={show} onHide={handleClose}>
         <Modal.Header closeButton>
