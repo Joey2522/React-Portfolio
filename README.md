@@ -58,6 +58,7 @@ Create a portfolio, using your React skills to help set you apart from other dev
 7. React-Router-Dom [6.10.0](https://www.npmjs.com/package/react-router-dom)
 8. Vite [4.4.5](https://v4.vitejs.dev/)
 9. Emailjs [4.3.3](https://www.npmjs.com/package/@emailjs/browser)
+10. NPM [10.2.4](https://www.npmjs.com/package/npm/v/10.2.4)
 
 
 ## License & Copyright ©
