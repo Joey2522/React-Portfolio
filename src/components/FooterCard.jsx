@@ -5,7 +5,7 @@ import { useState } from 'react';
 import Button from 'react-bootstrap/Button';
 import Modal from 'react-bootstrap/Modal';
 import gitHub from '/src/images/icons/github.svg';
-import linkedIn from '/src/images/icons/linkedin.svg.svg';
+import linkedIn from '/src/images/icons/linkedin.svg';
 import dumpFire from '/src/images/icons/dumpster-fire-solid.svg';
 
 
