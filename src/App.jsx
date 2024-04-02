@@ -2,7 +2,7 @@ import Navbar from "./components/Navbar";
 import Footer from "./components/FooterCard";
 import { Outlet } from "react-router-dom";
 
-import './styles/App.css';
+import './styles/app.css';
 
 function App() {
     return (
