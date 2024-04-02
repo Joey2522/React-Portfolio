@@ -1,4 +1,4 @@
-import '../styles/contactcard.css';
+import '../styles/ContactCard';
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import Button from 'react-bootstrap/Button';

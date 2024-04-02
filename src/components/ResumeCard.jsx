@@ -1,5 +1,5 @@
 import React from 'react';
-import '../styles/resumecard.css';
+import '../styles/ResumeCard.css';
 import { Link } from 'react-router-dom';
 import CV from "../resume/JoeyPorter-Resume.pdf";
 import Button from 'react-bootstrap/Button';
