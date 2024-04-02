@@ -21,19 +21,19 @@ const router = createBrowserRouter([
         element: <Landing />,
       },
       {
-        path: 'aboutMe',
+        path: '/aboutMe',
         element: <AboutMe />,
       },
       {
-        path: 'portfolio',
+        path: '/portfolio',
         element: <PortfolioCard />,
       },
       {
-        path: 'contact',
+        path: '/contact',
         element: <ContactCard />,
       },
       {
-        path: 'resume',
+        path: '/resume',
         element: <ResumeCard />,
       },
     ],
