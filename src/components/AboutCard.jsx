@@ -1,10 +1,11 @@
 import React from 'react';
 import '../styles/AboutCard.css';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 function AboutMe () {
     return (
     <>
-    <header>About Me</header>
+    <header className="title">About Me</header>
         <div className='aboutCard'>
             <p>
             Hello, my name is Joseph Porter but everyone calls me Joey. 
