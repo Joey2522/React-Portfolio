@@ -6,7 +6,7 @@
     margin: 15px auto;
     width: 410px;
     height: 320px;
-    background-image: radial-gradient(#002057, #424A57);
+    background-image: radial-gradient(#e63f10, #692fbd);
     border-radius: 4px;
     overflow: scroll;
 }
@@ -14,7 +14,6 @@
 .imageContainer {
     display: flexbox;
     flex-direction: column;
-
   }
 
 img {
@@ -23,15 +22,40 @@ img {
     height: 200px;
   }
 
-header {
+.title {
     display: flex;
     justify-content: center;
-    background-image: radial-gradient(#002057, #424A57);
+    background-image: radial-gradient(#e63f10, #692fbd);
     padding: 15px;
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
     margin: 10px;
     color: whitesmoke;
     text-shadow: 3px 3px 5px rgba(0, 128, 0, 1);
     border-radius: 4px;
   }
+
+  .accordion-header {
+    font-size: 40px;
+  }
+
+  @media (min-width: 1300px) {
+    .portfolioCard {
+        width: 820px;
+        height: 320px;
+        max-width: 820px;
+        margin-bottom: 120px;
+    }
+    img {
+      padding: 20px;
+      width: 450px;
+      height: 325px;
+    }
+    .title {
+      font-size: 70px;
+      width: 820px; 
+  }
+}
