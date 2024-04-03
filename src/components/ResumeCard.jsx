@@ -15,7 +15,7 @@ const saveFile = () => {
 function Resume () {
     return (
         <>
-        <header>Resume</header>
+        <header className="title">Resume</header>
         <div className="resumeCard">
         <h3>Download my resume below! <i class="fa-solid fa-hand-point-down"></i></h3>
             <i id="i" class="fa-solid fa-download"></i>
