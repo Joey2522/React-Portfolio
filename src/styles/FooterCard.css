@@ -50,8 +50,8 @@ ul li {
 @media (min-width: 1300px) {
     .ul {
         width: 400px;
-        margin-top: -90px;
-        padding-top: 1px;
+        margin-top: -100px;
+        padding-top: 70px;
     }
     .icon1 {
         width: 100px;
@@ -64,8 +64,4 @@ ul li {
     .icon3 {
         width: 100px;
     }
-<<<<<<< HEAD
 }
-=======
-}
->>>>>>> 5cd632c (lots of changes)
