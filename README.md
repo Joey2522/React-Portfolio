@@ -38,6 +38,7 @@ Create a portfolio, using your React skills to help set you apart from other dev
 
 ## Screenshots:
 ### Figure 1. Landing Page
+<<<<<<< HEAD
 ![](./src/images/homeShot.png) 
 ### Figure 2.  Portfolio Page
 ![](./src/images/portfolioShot.png)
@@ -45,6 +46,20 @@ Create a portfolio, using your React skills to help set you apart from other dev
 ![](./src/images/contactShot.png)
 ### Figure 3. Resume Page
 ![](./src/images/resumeShot.png)
+=======
+![](./src/images/LandingShot.png) 
+### Figure 2.  Portfolio Page
+![](./src/images/PortfolioShot.png)
+### Figure 3. Contact Page
+![](./src/images/ContactShot.png)
+### Figure 4. Resume Page
+![](./src/images/ResumeShot.png)
+### Figure 5. About Me Page
+![](./src/images/AboutShot.png)
+### Figure 6. Links
+![](./src/images/LinksShot.png)
+
+>>>>>>> 5cd632c (lots of changes)
 
 
 ## Built With
