@@ -6,17 +6,20 @@
     margin: 15px auto;
     width: 410px;
     height: 320px;
-    background-image: radial-gradient(#002057, #424A57);
+    background-image: radial-gradient(#e63f10, #692fbd);
     border-radius: 4px;
 }
 
 header {
     display: flex;
     justify-content: center;
-    background-image: radial-gradient(#002057, #424A57);
+    background-image: radial-gradient(#e63f10, #692fbd);
     padding: 15px;
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
     margin: 10px;
     color: whitesmoke;
     text-shadow: 3px 3px 5px rgba(0, 128, 0, 1);
@@ -43,4 +46,35 @@ h3 {
     text-align: center;
     margin-left: 120px;
     font-size: 40px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+@media (min-width: 1300px) {
+    .resumeCard {
+        width: 820px;
+        height: 500px;
+        max-width: 820px;
+        margin-bottom: 120px;
+    }
+    h3 {
+        font-size: 50px;
+    }
+    .title {
+        font-size: 70px;
+        width: 820px; 
+    }
+    .dlBtn {
+        color: whitesmoke;
+        text-align: center;
+        margin-left: 250px;
+        font-size: 70px;
+    }
+    #i {
+        font-size: 200px;
+        margin-top: 50px;
+
+    }
 }
