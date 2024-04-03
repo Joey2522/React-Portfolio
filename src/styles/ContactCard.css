@@ -1,14 +1,19 @@
-header {
-    display: flex;
+.title {
+    display: flex-column;
     justify-content: center;
-    background-image: radial-gradient(#002057, #424A57);
+    align-items: center;
+    background-image: radial-gradient(#e63f10, #692fbd);
     padding: 15px;
     font-size: 40px;
-    font-family: Arial, Helvetica, sans-serif;
-    margin: 10px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    margin: 10px auto;
     color: whitesmoke;
-    text-shadow: 3px 3px 5px rgba(0, 128, 0, 1);
+    text-shadow: 3px 3px 5px #3e166f;
     border-radius: 4px;
+    width: 410px; 
 }
 
 .contactCard {
@@ -17,7 +22,7 @@ header {
     margin: 15px auto;
     width: 410px;
     height: 625px;
-    background-image: radial-gradient(#002057, #424A57);
+    background-image: radial-gradient(#e63f10, #692fbd);
     border-radius: 4px;
 }
 
@@ -29,17 +34,29 @@ h3 {
     color: whitesmoke;
     text-align: center;
     padding-top: 15px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 h4 {
     color: whitesmoke;
     text-align: center;
-    padding-top: 10px;  
+    padding-top: 10px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 form {
     overflow: hidden;
     color: whitesmoke;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
 }
 
 .formContent {
@@ -62,6 +79,49 @@ form {
 .emailBtn input {
     color: #002057;
     font-size: 30px;
-    background-color: aqua;
+    background-color: #e63f10;
     border-radius: 4px;
+    font-family: "League Spartan", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+@media (min-width: 1300px) {
+    .contactCard {
+        width: 820px;
+        height: 1100px;
+        max-width: 820px;
+        margin-bottom: 120px;
+    }
+    .title {
+        font-size: 70px;
+        width: 820px; 
+    }
+    .formContent {
+        text-align: center;
+        font-size: 40px;
+        padding: 15px;
+    }
+    h3 {
+        font-size: 50px;
+        padding-top: 15px;
+    }
+    
+    h4 {
+        font-size: 40px;
+        padding-top: 10px;
+    }
+    .content {
+        height: 480px;
+        width: 700px;
+        align-items: center;
+        overflow: scroll;
+    }
+    .emailBtn input{
+        text-align: center;
+        font-size: 75px;
+        padding: 15px;
+        border-radius: 30px;
+    }
 }
