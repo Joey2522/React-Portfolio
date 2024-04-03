@@ -14,7 +14,7 @@ import Button from 'react-bootstrap/Button';
 function Portfolio() {
   return (
     <>
-    <header>Portfolio</header>
+    <header className="title">Portfolio</header>
     <div className="portfolioCard">
     <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="1">
