@@ -14,8 +14,8 @@ import Button from 'react-bootstrap/Button';
 function Portfolio() {
   return (
     <>
-    <header className="title">Portfolio</header>
-    <div className="portfolioCard" id="Portfolio">
+    <header className="title" id="Portfolio">Portfolio</header>
+    <div className="portfolioCard">
     <Accordion defaultActiveKey="0">
       <Accordion.Item eventKey="1">
         <Accordion.Header>Run Tracker</Accordion.Header>

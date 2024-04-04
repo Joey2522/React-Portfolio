@@ -5,8 +5,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function AboutMe () {
     return (
     <>
-    <header className="title">About Me</header>
-        <div className='aboutCard' id="AboutMe">
+    <header className="title" id="AboutMe">About Me</header>
+        <div className='aboutCard'>
             <p>
             Hello, my name is Joseph Porter but everyone calls me Joey. 
             I currently live in the greater Austin metro area with my wife and 3 kids. 

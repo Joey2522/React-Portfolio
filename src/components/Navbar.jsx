@@ -11,10 +11,10 @@ function Navbar () {
  <>
     <nav className="navbar" id="navMenu">
       <ul>
-        <li><HashLink to="/aboutMe#AboutMe" smooth>About Me</HashLink></li>
-        <li><HashLink to="/portfolio#Portfolio" smooth>Portfolio</HashLink></li>
-        <li><HashLink to="/contact#Contact" smooth>Contact</HashLink></li>
-        <li><HashLink to="/resume#Resume" smooth>Resume</HashLink></li>
+        <li><HashLink to="/about#AboutMe" style={{ textDecoration: 'none' }} smooth>About Me</HashLink></li>
+        <li><HashLink to="/portfolio#Portfolio" style={{ textDecoration: 'none' }} smooth>Portfolio</HashLink></li>
+        <li><HashLink to="/contact#Contact" style={{ textDecoration: 'none' }} smooth>Contact</HashLink></li>
+        <li><HashLink to="/resume#Resume" style={{ textDecoration: 'none' }} smooth>Resume</HashLink></li>
       </ul>
     </nav>
     <Link to={''}><img src={ mainPic } alt="Handsom Man" class="picture"/></Link>
