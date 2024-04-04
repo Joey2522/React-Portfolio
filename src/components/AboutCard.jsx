@@ -6,7 +6,7 @@ function AboutMe () {
     return (
     <>
     <header className="title">About Me</header>
-        <div className='aboutCard'>
+        <div className='aboutCard' id="AboutCard">
             <p>
             Hello, my name is Joseph Porter but everyone calls me Joey. 
             I currently live in the greater Austin metro area with my wife and 3 kids. 

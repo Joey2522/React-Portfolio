@@ -3,6 +3,8 @@ import { NavLink, Link } from 'react-router-dom';
 import '../styles/Navbar.css';
 import mainPic from '/src/images/Porter-0111.jpg';
 
+
+
 function Navbar () {
  return (
  <>
