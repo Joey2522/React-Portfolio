@@ -4,7 +4,7 @@ import '../styles/LandingPage.css';
 function Landing () {
     return (
     <>
-        <div className='landingCard'>
+        <div className='landingCard' id="home">
             <p className="welcome">
             WELCOME TO MY ONLINE PORTFOLIO!
             </p>
